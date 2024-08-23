@@ -9,15 +9,15 @@
 
 
 # API - EndPoints
+# Doc APIS [Swagger DOC](http://localhost:5067/swagger/index.html)
 
 ## Registro de Libros
 ```
-POST:  v1/libros/
+POST:  api/libros/
 ```
 ## Registro de Prestamos de Libros
-
 ```
-POST:  v1/libros/prestamos/
+POST:  api/libros/prestamos/
 Body:  libros: [{libroId: 33,
         userId: 43}, ...]
 ```
