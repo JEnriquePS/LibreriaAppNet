@@ -18,6 +18,6 @@ POST:  v1/libros/
 
 ```
 POST:  v1/libros/prestamos/
-Body:  {libroId: 33,
-        userId: 43}
+Body:  libros: [{libroId: 33,
+        userId: 43}, ...]
 ```
